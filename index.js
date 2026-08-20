@@ -47,32 +47,32 @@
 // }, 1000);
 
 //promises
-const myPromise=new Promise((resolve, reject) => {
-    username="ptomer40"
-    password="1234"
-    if(username=="ptomer" && password=="1234"){
-        resolve("sucess")
-    }
-    else{
-        resolve("username or password is incorrect")
-    }
-})
+// const myPromise=new Promise((resolve, reject) => {
+//     username="ptomer40"
+//     password="1234"
+//     if(username=="ptomer" && password=="1234"){
+//         resolve("sucess")
+//     }
+//     else{
+//         resolve("username or password is incorrect")
+//     }
+// })
 
-myPromise.then((msg)=>{
-    console.log(msg)
-}).catch((msg)=>{
-    console.log(msg)
-}).finally(()=>{
-    console.log("all thr resouses have been closed /memory released")
-})
-async function handlelogin(){
-    try{
-        await myPromise}
-        catch(e){
-            console.log(e)
-        }
-        finally{
-            console.log("all thr resouses have been closed /memory released")
-        }
-    }
+// myPromise.then((msg)=>{
+//     console.log(msg)
+// }).catch((msg)=>{
+//     console.log(msg)
+// }).finally(()=>{
+//     console.log("all thr resouses have been closed /memory released")
+// })
+// async function handlelogin(){
+//     try{
+//         await myPromise}
+//         catch(e){
+//             console.log(e)
+//         }
+//         finally{
+//             console.log("all thr resouses have been closed /memory released")
+//         }
+//     }
     
